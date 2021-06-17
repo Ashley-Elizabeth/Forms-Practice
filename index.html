@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Intro</h1>
+    <h2>Text Input</h2>
+    <input type="text" placeholder="Username"/>
+    <input type="text" placeholder="City"/>
+    <h2>Email Input</h2>
+    <input type="email" placeholder="Email"/>
+    <h2>Color Input</h2>
+    <input type="color"/>
+    <h2>Number Input</h2>
+    <input type="number"/>
+    <input type="number" min="1" max="10" step="2"/>
+    <h2>Password Input</h2>
+    <label for="password">Enter A Strong Password</label>
+    <input type="password" placeholder="password" id="password"/>
+    <label for="confirm"/>Confirm Password</label>
+    <input type="password" placeholder="confirm password" id="confirm"/>
+
+    <h2>Radio Buttons</h2>
+    <p>Choose A Meat</p>
+    <input type="radio" id="steak" name="meat" value="steak"/>
+    <label for="steak">Steak</label>
+
+    <input type="radio" id="chicken" name="meat" value="chicken">
+    <label for="chicken">Chicken</label>
+
+    <input type="radio" id="lamb" name="meat"value="lamb">
+    <label for="lamb">Lamb</label>
+   
+    <h2>Checkboxes</h2>
+    <input type="checkbox" id="likesdogs" checked>
+    <label for="likesdogs">I like dogs</label>
+
+    <h2>Text Area</h2>
+    <textarea name="" id="" cols="100" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic in reiciendis dolorum 
+        sint aliquid dolor, debitis necessitatibus, animi aspernatur nesciunt natus eligendi nulla molestias fugiat sapiente et libero.
+         Corporis, doloremque?</textarea>
+
+    <h2>Form Element</h2>
+    
+    <hr>
+    <form action="https://www.reddit.com/search/">
+        <input type="text" placeholder="Username" name="username"/>
+        <input type="text" placeholder="Password" name="password"/>
+        <button>SUBMIT</button>
+    </form>
+    <h2>Reddit Search Form</h2>
+    <form action="https://www.reddit.com/search/">
+        <label for="search">Search Term</label>
+        <input type="text" name="q" id="search"/>
+        <label for="sort">Sort By:</label>
+        <select name="sort" id="sort">
+            <option value="top">Top</option>
+            <option value="new">New</option>
+            <option value="relevence">Relevence</option>
+            </select>
+        <input type="submit" value="search"/>
+
+    </form>
+
+    <hr>
+    <section id="overlay">
+        <h1>FULL SMASHLEYBURGER MENU</h1>
+        <img src="htmlcss1-img_burger-logo.svg" alt="Davie's Burger Logo" id="logo">
+        <hr>
+
+        <form action="/practice.html" method="POST">
+            
+            <p>“Every bite a better burger” is more than our motto here at Smashburger – it’s our lifestyle. Top-quality ingredients are used in all of our Smashing creations, from 100% Certified Angus Beef® burgers and crispy chicken sandwiches, to unique salad blends and creative sides. Discover every mouthwatering option we have to offer below. Already know what smash you’re craving? Skip the small talk and order online.</p>
+
+            <label for="username">Username</label>
+            <input type="text" name="username" value="SMASHLEYBURGER" id="username">
+            
+            <input type="submit">
+
+        </form>
+    </section>
+
+
+
+
+    
+</body>
+</html>
